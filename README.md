@@ -8,9 +8,7 @@ Dans un premier temps, pricing et Greeks sur un cas simple (S = K = 100, maturit
 
 Ensuite, je reprends tout ça sur des vraies données, en récupérant l'historique de NVIDIA avec yfinance, en estimant sa volatilité réelle, puis je price un Call et un Put dessus, avec le payoff à l'échéance.
 
-## Stack
-
-Python, NumPy, SciPy, Matplotlib, yfinance — le tout dans un notebook Jupyter.
+Tout est écrit en Python, avec NumPy et SciPy pour les calculs, Matplotlib pour les graphiques et yfinance pour récupérer les données de marché.
 
 ## Pour lancer
 
